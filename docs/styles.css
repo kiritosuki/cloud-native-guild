@@ -1,0 +1,32 @@
+.sidebar {
+  width: 250px;
+}
+
+.content {
+  left: 250px;
+  padding-top: 40px;
+}
+
+.markdown-section {
+  margin: 0 auto;
+  padding: 20px 5px 40px;
+}
+
+.app-name-link {
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 250px;
+  }
+
+  .content {
+    left: 0;
+    padding-top: 20px;
+  }
+
+  body.close .content {
+    transform: translateX(250px);
+  }
+}
